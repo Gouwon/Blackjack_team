@@ -1,6 +1,7 @@
 class Card:
-    def __init__(self):
-        self.name = "카드"
+    def __init__(self, s, n):
+        self.s = s
+        self.n = n
 
     def card(self):
         import random
@@ -12,13 +13,14 @@ class Card:
         a = i + j
         card.append(a)
         print(card)
+        return card
         
     def sum(self, x, y):
         b = x + y
         return sum(b)
 
 
-카드 = Card()
+카드 = Card(s,n)
 카드.card()
 
 
@@ -79,22 +81,3 @@ class Card:
 
 
 ######################################3
-
-
-# for x, y in list:
-
-# if sum == 21:
-#     print("Jackpot!!")
-#     break
-
-# if sum > 21:
-#     print("Game over")
-#     break
-
-# else:
-#     while True:
-#         print("Compare each sum")
-#         if sum.Dealer > sum.Player:
-#             print("Dealer win!")
-#         else:
-#             print("Player win!")

@@ -1,21 +1,21 @@
-class Card:
-    def __init__(self):
-        self.name = "카드"
+def score(dh, ph):
+	if total(ph) == 21:
+		print(dh, ph)
+		print ("You've got a Blackjack!\n")
+	elif total(dh) == 21:
+		print(dh, ph)		
+		print("The dealer've got a blackjack.\n")
+	elif total(ph) > 21:
+		print(dh, ph)
+		print ("Sorry. You've lost.\n")
+	elif total(dh) > 21:
+		print(dh, ph)			   
+		print ("You've won.\n")
+	elif total(ph) < total(dh):
+		print(dh, ph)
+        print("You've lost.\n")
+	elif total(ph) > total(dh):
+		print(dh, ph)			   
+		print("You've won.\n")
 
-    def card(self):
-        import random
-        s = ["Spade", "Diamond", "Heart", "Clover"]
-        n = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
-        card = []
-        i = random.choice(s)
-        j = random.choice(n)
-        a = i + j
-        card.append(a)
-        print(card)
-        
-    def sum(self, x, y):
-        b = x + y
-        return sum(b)
-
-카드 = Card()
-카드.card()
+test = 
