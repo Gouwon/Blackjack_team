@@ -1,14 +1,35 @@
-def total(h):
-    total = 0
-    for card in h:
-	    if card == "J" or card == "Q" or card == "K":
-	        total += 10
+class Card:
+    def card(self):
+        
+        shape = ["S", "D", "H", "C"]
+        number = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
+        point = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10", "10", "10"]
+        points = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10", "10", "10"] * 4
 
-	    elif card == "A":
-	        if total >= 11:
-                    total += 1
-	        else: 
-                total += 11
-	                total += card
+        card = {}
+        for i in range(13):
+            card[number[i]] = point[i] 
 
-    return total
+        print(card)
+
+        y = list(card.keys())
+        print(y)
+
+        score = []
+        for i, j in enumerate(shape):
+            for v, w in enumerate(number):
+                a = j + w
+                score.append(a)
+
+        print(score)
+
+        cards = {}
+        for i in range(52):
+            cards[score[i]] = points[i]                  
+
+        print(cards)
+
+        return cards
+
+
+cards = card()

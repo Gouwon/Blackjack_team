@@ -18,4 +18,3 @@ def score(dh, ph):
 		print(dh, ph)			   
 		print("You've won.\n")
 
-test = 
