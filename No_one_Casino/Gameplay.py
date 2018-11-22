@@ -5,7 +5,7 @@ def card():
     pattern = ['S', 'C', 'H', 'D']
     numbers = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
     point = ['2', '3', '4', '5', '6', '7', '8', '9', '10', '10', '10', '10', '11'] * 4
-    card_form = []
+    card_form = list()
     card_set = dict()
     for i in pattern:
         for v in numbers:
@@ -17,18 +17,25 @@ def card():
 
 def deck_key():
     deck_card = dict()
-    deck_keys = []
+    deck_keys = list()
     deck_card = card()
     deck_keys = list(deck_card.keys())
     shuffle(deck_keys)
     return deck_keys
 
 
+def deck_share(deck):
+    return deck.pop()
+
+
 def give_2cards(player_hand, dealer_hand, deck):
     for i in range(2):
-        player_hand.append(deck.pop())
-        dealer_hand.append(deck.pop())
-    print("Dealer's hand = {}".format(dealer_hand[0]))
+        player_hand.append(deck_share(deck))
+        dealer_hand.append(deck_share(deck))
+    if dealer_hand[0] <= dealer_hand[1]:
+        print("Dealer's hand = {}".format(dealer_hand[0]))
+    else:
+        print("Dealer's hand = {}".format(dealer_hand[1]))
 
 
 def outcome(player_hand, dealer_hand):

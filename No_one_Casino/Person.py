@@ -12,13 +12,11 @@ class Person:
             k = cards[i]
             self.point.append(int(k))
         a = sum(self.point)
-
         if a > 21 and self.point.count(11) != 0: 
-            total_value = sum(self.point)
             a_value = self.point.count(11)
+            total_value = sum(self.point)
             a = total_value - (a_value * 10)
             return int(a)
-
         elif a > 21 and self.point.count(11) == 0:
             return int(a)
         elif a < 21:
@@ -41,7 +39,8 @@ class Person:
         return 0
 
     def show_infor(self):
-        print("{}'s Score = {}, {}'s Hand = {}".format(self.name, self.score(), self.name, self.hand))
+        print("{}'s Score = {}, {}'s Hand = {}".format(
+            self.name, self.score(), self.name, self.hand))
 
 ######################### Player #######################
 
@@ -54,14 +53,13 @@ class Player(Person):
     def decision(self, player_hand):
         user_input = input("Hit or Stay??? \n'h' for Hit, 's' for Stay >>> ")
         if user_input == 'h':
-            self.hand.append(player_hand.pop())
+            self.hand.append(Gameplay.deck_share(player_hand))
             print("{}'s hand = {}".format(self.name, self.hand))
             return True
         elif user_input == 's':
             return False
         else:
             print("Please re-check your insert key!!")
-            return self.decision(player_hand)
 
     def score(self):
         a = super().score()
@@ -80,5 +78,5 @@ class Dealer(Person):
         if self.score() > 17:
             return False
         else:
-            self.hand.append(dealer_hand.pop())
+            self.hand.append(Gameplay.deck_share(dealer_hand))
             return True

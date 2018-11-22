@@ -27,7 +27,7 @@ if user_input == 's':
         Gameplay.outcome(player.score(), dealer.score())  
         Gameplay.close_game(dealer.score())  
 elif user_input == 'e':
-    print("Thank you for playing! Hope to see you again!")
+    print("THANK YOU!! GOOD BYE!!~~")
     exit()
 else:
     print("Wrong Insert. Please give me proper command.")
