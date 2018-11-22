@@ -1,20 +1,18 @@
-**No_won_ Casino**
+##**No_won_ Casino**
 
-Collaborators
+##Contributors
 -Gunwoo Kim
 -Jinny Han
 -Jaehyun Sung
 
-'''python
-print("hahah")
-'''
-
+  print("ahahah") 
+  
 Features = 1.
 특징및 장점
 Rules =
 규칙
 Deployment =
 
-URL Link = git 주소
+URL Link = [https://github.com/Gouwon/Blackjack_team]
 
-C
+
