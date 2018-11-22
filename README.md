@@ -1,7 +1,14 @@
-**No-won- Casino**
+**No_won_ Casino**
 
-Collaborators =
-기여자들
+Collaborators
+-Gunwoo Kim
+-Jinny Han
+-Jaehyun Sung
+
+'''python
+print("hahah")
+'''
+
 Features = 1.
 특징및 장점
 Rules =
