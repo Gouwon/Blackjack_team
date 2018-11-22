@@ -1,12 +1,13 @@
-##**No_won_ Casino**
+## **No_won_ Casino**
 
-##Contributors
--Gunwoo Kim
--Jinny Han
--Jaehyun Sung
+## Contributors
+- Gunwoo Kim
+- Jinny Han
+- Jaehyun Sung
 
+```python
   print("ahahah") 
-  
+```  
 Features = 1.
 특징및 장점
 Rules =
