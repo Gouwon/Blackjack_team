@@ -12,37 +12,49 @@ Nowon Casino means that no one has won the casino yet is located in the place ca
 - Learning relavant skill
 
 ## What are features?
-특징및 장점
 - Pythoinic way of implementing the game.
 - Object-Oriented class programming.
 - Simple and easy to play.
 - "A" can be automatically calculated 1 or 11.
-- 파이썬스러운 방법으로 게임 구현
-- 객체지향 클래스 프로그래밍 사용
-- 간단하고 쉬운 플레이
-- "A"는 1 이나 11로 자동계산
-
 
 ## Rules 
-규칙
 1. Anyone who hits 21 accomplishs Blackjack winning the game.
 2. Each player receives 2 cards.
 3. The game can be continued when the total score is under 21.
 4. Dealer only can receive new card when its total score is under 17.
 5. It compares each score and shows outcome.
 
-
-
 ## Deployment 
 
-### Create a project
+### Flow chart
 
-### Build the project
+
+
+### Debugging 
+- Import error
+- None-type error
+- Initialising error
+
+
+
+## **노원카지노**
+노원카지노의 뜻은 노원에 위치한 카지노로써 아직 아무도 이긴적이 없는(No one) 카지노를 뜻합니다.
+
+## 기여자
+- 김건우
+- 한진선
+- 성재현
 
 ## 프로젝트 목적
 - 초보자로서 파이썬공부
 - 동료와 협동
 - 관련된 기술 익히기
+
+## 특징 및 장점
+- 파이썬스러운 방법으로 게임 구현
+- 객체지향 클래스 프로그래밍 사용
+- 간단하고 쉬운 플레이
+- "A"는 1 이나 11로 자동계산
 
 ## 규칙
 1. 블랙잭을 만든사람이 승자가 된다.
@@ -50,6 +62,16 @@ Nowon Casino means that no one has won the casino yet is located in the place ca
 3. 게임은 21점 이하일때만 계속 진행된다.
 4. 딜러는 17점 미만일때만 카드를 새로 받는다.
 5. 각각의 점수를 비교하여 결과를 보여준다
+
+## 발전과정
+### 디버깅
+- 모듈, 클래스 import error
+- return 의 부재로 None-type error
+- 카드 패 초기화 error
+
+
+
+
 
 ## URL Link = [https://github.com/Gouwon/Blackjack_team]
 
