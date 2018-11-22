@@ -27,8 +27,11 @@ Nowon Casino means that no one has won the casino yet is located in the place ca
 ## Deployment 
 
 ### Flow chart
-
-
+- Opening game
+- Creating card deck (52 cards)
+- Instantiating objects (Player and Dealer)
+- Poping two cards and distributing to each object
+- 
 
 ### Debugging 
 - Import error
@@ -38,7 +41,7 @@ Nowon Casino means that no one has won the casino yet is located in the place ca
 
 
 ## **노원카지노**
-노원카지노의 뜻은 노원에 위치한 카지노로써 아직 아무도 이긴적이 없는(No one) 카지노를 뜻합니다.
+노원카지노의 뜻은 노원에 위치한 카지노로써 아직 아무도 이긴적이 없는(No-Won) 카지노를 뜻합니다.
 
 ## 기여자
 - 김건우
