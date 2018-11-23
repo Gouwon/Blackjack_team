@@ -33,7 +33,7 @@ Nowon Casino means that no one has won the casino yet is located in the place ca
 4. Poping two cards and distributing to each object
 5. Hit or Stay?
 6. Checking whether dealer's score is under 17
-7. Both of scores are checked whether they are greater than or equal to 21
+7. Determine whether both of scores are greater than or equal to 21
 8. Hit or Stay?
 9. Closing game
   
@@ -42,7 +42,6 @@ Nowon Casino means that no one has won the casino yet is located in the place ca
 - Import error
 - None-type error
 - Initialising error
-
 
 
 ## **노원카지노**
@@ -79,8 +78,8 @@ Nowon Casino means that no one has won the casino yet is located in the place ca
 3. 플레이어와 딜러 객체화
 4. 2개의 카드를 뽑아 분배
 5. Hit or Stay?
-6. 딜러의 총 합이 17점 보다 작은지?
-7. 둘다의 총 합이 21점 보다 크거나 같은지?
+6. 딜러의 합이 17점 보다 작은지?
+7. 각각의 합이 21점 보다 크거나 같은지?
 8. Hit or Stay?
 9. 게임종료
   
