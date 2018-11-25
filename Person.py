@@ -37,12 +37,6 @@ class Person:
         else:
             return True
 
-    def decision(self, isStay):
-        return 0
-
-    def show_infor(self):
-        print("{}'s Score = {}, {}'s Hand = {}".format(self.name, self.score(), self.name, self.hand))
-
 ######################### Player #######################
 
 class Player(Person):
